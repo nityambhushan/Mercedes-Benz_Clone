@@ -1,0 +1,371 @@
+/** Navbar */
+*{
+    margin: 0;
+    border: 0;
+}
+a{
+    font-size: 0.95rem;
+    text-decoration: none;
+    color:#BBBBBB;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: black;
+}
+.navbar{
+    height: 100px;
+    margin: 0px 89px 0px 89px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.combine{
+    width: 240px;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    height: 65px;
+    width: 65px;
+    background-image: url(Mercedes_logo.jpeg);
+    background-size: cover;
+}
+.navbar a{
+   color: white;
+   text-decoration: none;
+   font-family: 'Times New Roman', Times, serif;
+}
+.name{
+    font-size: 0.9rem;
+    align-self: flex-end;
+    padding-left: 84.6px;
+}
+.searchbar{
+    height: 48px;
+    width: 860px;
+    display: flex;
+    justify-content: flex-end;
+}
+.policy{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#one{
+    font-size: 0.8rem;
+    text-decoration: none;
+    color:#BBBBBB;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.search{
+    display: flex;
+    width: 260px;
+    background-color: #262626;
+
+}
+
+.input{
+    width: 100%;
+    border: none;
+    height: 46px;
+    color: white;
+    background-color: #262626;
+    border-right: 0.5px solid black;
+    font-size: 0.9rem;
+}
+input::placeholder{
+    color: #BBBBBB;
+}
+.glass{
+    width: 48px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.separate{
+    display: flex;
+    margin-left: 5px;
+    font-size: 0.75rem;
+    background-color: black;
+}
+.wishlist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+}
+.login{
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wishlist:hover{
+    width:48px ;
+    background-color: #262626;
+}
+.login:hover{
+    width: 48px;
+    background-color: #262626;
+}
+
+/* Panel */
+.panel{
+    padding: 0px 89px 0px 89px;
+    height: 64px;
+    border-top: 0.5px solid rgb(128, 128, 128);
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.panel a{
+    padding: 16px;
+}
+.model{
+    padding: 16px;
+}
+
+
+/* Hero */
+.hero{
+    height: 600px;
+    background-image: url(Mercedes\ bg.webp);
+    background-size: cover;
+    color: white;
+}
+.heading{
+    font-size: 2rem;
+    
+}
+.car-name{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    height: 50px;
+    width: 150px;
+    color: white;
+    font-weight: 700;
+    background-color: #0078d6;
+}
+button:hover{
+    background-color: #0011ff;
+}
+.pos{
+    height: 300px;
+    position: relative;
+    left: 100px;
+    top: 150px;
+}
+
+/* Heading */
+.Heading{
+    display: flex;
+    height: 190px;
+    font-size: 2.5rem;
+    margin: 0px 89px 0px 89px;
+    align-items: center;
+}
+
+/* Recommended images */
+.recomm{
+    margin: 0px 89px 100px 89px;
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+}
+.bg-img{
+    width: 300px;
+    height: 220px;
+    background-size: cover;
+}
+.content{
+    height: 380px;
+    width: 300px;
+}
+.in-cont{
+    padding: 24px 32px 48px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.in-cont p,h2{
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.in-cont h2{
+    font-size: 1.3rem;
+}
+.butt{
+    align-self: center;
+    margin-top: auto;
+    
+}
+/* Sidebar */
+.sidebar{
+    display: flex;
+    height: 300px;
+    padding: 80px 89px;
+}
+.side-bg{
+    width: 400px;
+    height: 280px;
+    background-image: url(sidebar.avif);
+    background-size:cover ;
+    padding-right: 10px;
+}
+.side-content{
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.side-content h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 2rem;
+}
+.side-content h2,p{
+    padding-bottom: 10px;
+}
+.side-content p{
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bu{
+    padding-bottom: 20px;
+}
+.che{
+    font-size: 0.9rem;
+}
+
+/* Legal */
+.legal{
+    height: 60px;
+    border-bottom: 1px solid black;
+    margin: 32px 89px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.legal-content{
+    height: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #767676;
+    margin : 0px 89px;
+    font-size: 0.85rem;
+}
+
+/* Shop */
+.shop{
+    padding: 0px 89px;
+    display: flex;
+    justify-content: space-between;
+    height: 180px;
+}
+.boxs{
+    height: 80px;
+    width: 250px;
+    padding: 24px 16px;
+    display: flex;
+    border: 1px solid gray;
+}
+.box-logo{
+    padding-right: 16px;
+    font-size: 1.4rem;
+}
+.box-content p{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.sz{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+/* Footer */
+footer{
+    height: 650px;
+    background-color: black;
+    color: white;
+}
+
+.lists{
+    margin: 0px 89px;
+    padding-top: 50px;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+}
+.list p,a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.list p{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.list a,p{
+    margin-bottom: 20px;
+}
+.list a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+/* Copyright */
+
+.copyright{
+    margin: 50px 89px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.disclaimer{
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    margin-bottom: 30px;
+}
+.disclaimer a{
+    padding-right: 20px;
+
+}
+.disclaimer a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.copy-logo{
+    display: flex;
+    width: 250px;
+    justify-content: space-evenly;
+    font-size: 1.7rem;
+}
